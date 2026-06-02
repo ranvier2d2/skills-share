@@ -1,0 +1,35 @@
+{
+  "window": {
+    "source": "video.mp4",
+    "t_start": 0.0,
+    "t_end": 60.0
+  },
+  "summary": "",
+  "candidate_moments": [
+    {
+      "id": "cm_001",
+      "t_start": 0.0,
+      "t_end": 0.0,
+      "reason": "",
+      "evidence_ids": [],
+      "rank": 1
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs_001",
+      "t": 0.0,
+      "text": "",
+      "evidence_ids": [],
+      "confidence": "low|medium|high"
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "unc_001",
+      "text": "",
+      "evidence_ids": []
+    }
+  ],
+  "recommended_reinspection": []
+}

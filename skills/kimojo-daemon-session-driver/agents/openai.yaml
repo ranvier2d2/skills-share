@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kimojo Daemon Driver"
+  short_description: "Drive live Kimojo sessions through serve/attach and daemon IPC"
+  default_prompt: "Use $kimojo-daemon-session-driver to operate Kimojo through `kimojo serve` and `kimojo attach`, validate controller or observer ownership, and report daemon truth."

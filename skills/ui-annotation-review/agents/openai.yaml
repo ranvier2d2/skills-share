@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Annotation Review"
+  short_description: "Annotate screenshots for UI reviews"
+  default_prompt: "Use $ui-annotation-review to capture a page, mark the visual issues, and publish the annotated PNG."

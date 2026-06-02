@@ -1,0 +1,23 @@
+{
+  "name": "excalidraw-mermaid-safe-skill-scripts",
+  "version": "1.0.0",
+  "packageManager": "pnpm@11.1.2",
+  "description": "Optional Excalidraw Mermaid parser dependency for the Codex excalidraw-mermaid-safe skill.",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "./bootstrap.sh",
+    "doctor": "./doctor.sh",
+    "test": "./test_fixtures.sh",
+    "test:strict": "./test_fixtures.sh --strict",
+    "validate": "./doctor.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@excalidraw/mermaid-to-excalidraw": "2.2.2",
+    "dompurify": "3.4.3",
+    "jsdom": "29.1.1"
+  }
+}

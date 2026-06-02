@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+is_chordchemist_repo() {
+  local candidate="$1"
+  [[ -f "$candidate/package.json" && -f "$candidate/scripts/chordchemist.ts" ]]
+}
+
+find_repo_from_cwd() {
+  local dir="$PWD"
+  while [[ "$dir" != "/" ]]; do
+    if is_chordchemist_repo "$dir"; then
+      printf '%s\n' "$dir"
+      return 0
+    fi
+    dir="$(dirname "$dir")"
+  done
+  return 1
+}
+
+repo="${CHORDCHEMIST_REPO:-}"
+if [[ -z "$repo" ]]; then
+  repo="$(find_repo_from_cwd || true)"
+fi
+
+if ! is_chordchemist_repo "$repo"; then
+  echo "ChordChemist repo not found. Run from the repo or set CHORDCHEMIST_REPO." >&2
+  exit 1
+fi
+
+cd "$repo"
+exec npm run --silent cc -- "$@"

@@ -1,0 +1,51 @@
+/* svg-styled-sourcemap preset: kimojo-sourcemap */
+
+/* Background + grid */
+.svg-bg { fill: #070a14; }
+.bg { fill: #070a14; }
+.grid { stroke: rgba(148, 163, 184, 0.06); stroke-width: 1; }
+
+/* Typography */
+svg { color: #e2e8f0; }
+text { fill: #e2e8f0; text-rendering: geometricPrecision; }
+.title { fill: #f1f5f9; }
+.hint { fill: rgba(226, 232, 240, 0.75); }
+
+/* Keep strokes crisp while zooming */
+.svg-el { vector-effect: non-scaling-stroke; shape-rendering: geometricPrecision; }
+
+/* Edges */
+.edge { stroke: rgba(148, 163, 184, 0.32); stroke-width: 1.35; }
+.edge-strong { stroke: rgba(34, 211, 238, 0.62); stroke-width: 2.2; }
+
+/* Nodes by kind */
+.node { cursor: pointer; }
+
+.node-heading .node-rect {
+  fill: rgba(30, 64, 175, 0.20);
+  stroke: rgba(34, 211, 238, 0.70);
+  stroke-width: 1.35;
+}
+.node-heading .node-label { fill: #e0f2fe; }
+
+.node-item .node-rect {
+  fill: rgba(88, 28, 135, 0.18);
+  stroke: rgba(168, 85, 247, 0.62);
+  stroke-width: 1.15;
+}
+.node-item .node-label { fill: #f5d0fe; }
+
+.node-text .node-rect {
+  fill: rgba(15, 23, 42, 0.62);
+  stroke: rgba(148, 163, 184, 0.32);
+  stroke-width: 1.0;
+}
+.node-text .node-label { fill: rgba(226, 232, 240, 0.88); }
+
+/* Hover: make hovered node pop */
+.node:hover .node-rect {
+  filter: drop-shadow(0 0 5px rgba(34, 211, 238, 0.25))
+    drop-shadow(0 0 10px rgba(168, 85, 247, 0.18));
+  stroke: rgba(34, 211, 238, 0.92);
+  stroke-width: 2.0;
+}

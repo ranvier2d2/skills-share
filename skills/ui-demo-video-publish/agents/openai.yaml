@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Demo Video Publish"
+  short_description: "Publish recorded UI demo evidence to Linear"
+  default_prompt: "Record a short UI demo, locate the final video, attach it to the target Linear issue, and leave a concise summary comment with what was validated."

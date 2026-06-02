@@ -1,0 +1,77 @@
+{
+  "base_dir": "$PDF_CASES_ROOT/CASE_MIXED_LAYOUT_STRESS_001",
+  "baseline": {
+    "block_metrics": {
+      "f1": 0.0,
+      "fn": 240,
+      "fp": 2253,
+      "iou_threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "tp": 0
+    },
+    "labeled_pages_evaluated": 80,
+    "memory": {
+      "max_peak_mb_per_page": 358.10062980651855,
+      "mean_peak_mb_per_page": 12.283631706237793
+    },
+    "method": "baseline_native_text",
+    "reading_order_accuracy": {
+      "mean": null,
+      "pages_scored": 0
+    },
+    "runtime": {
+      "mean_ms_per_page": 1123.5323697874996,
+      "p95_ms_per_page": 2567.809707999999
+    }
+  },
+  "case_id": "CASE_MIXED_LAYOUT_STRESS_001",
+  "downstream_quality": {
+    "bbox_link_completeness": 1.0,
+    "entity_link_completeness": 1.0,
+    "events": 80,
+    "evidence_rows": 160,
+    "extraction_dir": "$PDF_CASES_ROOT/CASE_MIXED_LAYOUT_STRESS_001/extractions/reconciled",
+    "missing_bbox_links": 0,
+    "missing_entity_links": 0,
+    "page_files": 80,
+    "present": true
+  },
+  "ground_truth": "$VA_CFILE_SKILL_ROOT/research/data/ground_truth_bootstrap_case_mixed_layout_stress_001.json",
+  "notes": [
+    "This benchmark harness is Iteration 2 research only.",
+    "v1 production pipeline remains unchanged.",
+    "For SAM-family runs, use sam2_precomputed or sam3_precomputed with externally generated segments."
+  ],
+  "pages_in_manifest": 80,
+  "pages_with_labels": 80,
+  "render_manifest": "$PDF_CASES_ROOT/CASE_MIXED_LAYOUT_STRESS_001/pages/raw/render_manifest.json",
+  "segmentation": {
+    "block_metrics": {
+      "f1": 0.09385113268608415,
+      "fn": 211,
+      "fp": 349,
+      "iou_threshold": 0.5,
+      "precision": 0.07671957671957672,
+      "recall": 0.12083333333333333,
+      "tp": 29
+    },
+    "enabled": true,
+    "labeled_pages_evaluated": 80,
+    "memory": {
+      "max_peak_mb_per_page": 358.11457347869873,
+      "mean_peak_mb_per_page": 12.284559273719788
+    },
+    "method": "segmentation_lightweight_block_merge",
+    "provider": "lightweight_block_merge",
+    "reading_order_accuracy": {
+      "mean": 1.0,
+      "pages_scored": 4
+    },
+    "runtime": {
+      "mean_ms_per_page": 1036.7527182624997,
+      "p95_ms_per_page": 2571.029041999992
+    },
+    "skipped": false
+  }
+}

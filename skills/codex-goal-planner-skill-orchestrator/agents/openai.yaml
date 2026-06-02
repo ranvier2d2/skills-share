@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal Planner Orchestrator"
+  short_description: "Route durable goals through Skills, Tool Adapters, evidence, and completion audits."
+  default_prompt: "Use $codex-goal-planner-skill-orchestrator to turn this goal into a Skill-governed plan with Tool Policy, Tool Adapters, Proof Closure Semantics, and a completion audit."

@@ -1,0 +1,26 @@
+interface:
+  display_name: "PR Summary"
+  short_description: "Summarize a GitHub PR using opt-in dynamic context."
+  default_prompt: "Use $pr-summary to summarize the current pull request"
+  brand_color: "#3B82F6"
+
+policy:
+  allow_implicit_invocation: false
+
+dependencies:
+  tools:
+    - type: "cli"
+      value: "gh"
+      description: "GitHub CLI authenticated for the repository containing the pull request"
+
+dynamic_context:
+  enabled: true
+  inline_command_placeholders: true
+  timeout_seconds: 20
+  max_output_chars: 24000
+  max_total_chars: 50000
+  allowed_commands:
+    - "gh pr view --json number,url,title,state,isDraft,author,baseRefName,headRefName,reviewDecision,mergeable,additions,deletions,changedFiles,statusCheckRollup"
+    - "gh pr diff --name-only"
+    - "gh pr view --comments"
+    - "gh pr diff"

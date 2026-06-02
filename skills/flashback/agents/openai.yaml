@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flashback"
+  short_description: "Capture session state and generate restart handoffs"
+  default_prompt: "Run flashback in full mode for the current repository and report outputs."

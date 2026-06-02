@@ -1,0 +1,4 @@
+interface:
+  display_name: "VA C-File PDF Editor"
+  short_description: "Vision-first VA PDF chronology and precision annotation"
+  default_prompt: "Run the vision-first VA C-file pipeline with entity-level findings, optional review-gated edits, and legal/medical chronologies with entity-linked citations."

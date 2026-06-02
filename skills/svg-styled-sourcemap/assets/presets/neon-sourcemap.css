@@ -1,0 +1,24 @@
+/* svg-css-enhancer preset: neon-sourcemap */
+
+.svg-bg { fill: #070a14; }
+
+svg { color: #e2e8f0; }
+text { fill: #e2e8f0; }
+
+.svg-el {
+  vector-effect: non-scaling-stroke;
+  shape-rendering: geometricPrecision;
+}
+
+/* Make node rectangles / boxes pop if they exist */
+rect.svg-rect {
+  stroke: rgba(148,163,184,0.5);
+  fill: rgba(15,23,42,0.65);
+}
+
+/* Strong highlight on hover */
+.svg-el:hover {
+  filter: drop-shadow(0 0 3px rgba(168,85,247,0.9));
+  stroke: rgba(168,85,247,0.95) !important;
+  stroke-width: 2.2 !important;
+}

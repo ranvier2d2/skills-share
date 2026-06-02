@@ -1,0 +1,25 @@
+/* svg-css-enhancer preset: inspector-dark */
+
+/* Optional background rect inserted by --add-background */
+.svg-bg { fill: #0b1020; }
+
+/* Global readability tweaks */
+svg { color: #e2e8f0; }
+text { fill: #e2e8f0; }
+
+/* Make strokes readable while zooming */
+.svg-el {
+  vector-effect: non-scaling-stroke;
+  shape-rendering: geometricPrecision;
+}
+
+/* Hover highlighting (works in browsers for standalone SVG) */
+.svg-el:hover {
+  filter: drop-shadow(0 0 2px rgba(56,189,248,0.8));
+  stroke: rgba(56,189,248,0.95) !important;
+  stroke-width: 2.0 !important;
+}
+
+/* Dim non-hover siblings when hovering a group (best-effort) */
+.svg-group:hover > .svg-el { opacity: 1.0; }
+.svg-group:hover > .svg-el:not(:hover) { opacity: 0.55; }

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Crypto Puzzle Hypothesis"
+  short_description: "Systematic crypto puzzle solver"
+  default_prompt: "Use $crypto-puzzle-hypothesis to triage clues, rank hypotheses, and test the next cryptographic puzzle attack safely."

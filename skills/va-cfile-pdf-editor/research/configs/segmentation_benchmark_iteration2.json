@@ -1,0 +1,26 @@
+{
+  "case_id": "CASE_MIXED_LAYOUT_STRESS_001",
+  "base_dir": "$PDF_CASES_ROOT/CASE_MIXED_LAYOUT_STRESS_001",
+  "render_manifest": "$PDF_CASES_ROOT/CASE_MIXED_LAYOUT_STRESS_001/pages/raw/render_manifest.json",
+  "ground_truth": "../data/ground_truth_bootstrap_case_mixed_layout_stress_001.json",
+  "evaluation": {
+    "iou_threshold": 0.5
+  },
+  "segmentation": {
+    "enabled": true,
+    "require_feature_flag": true,
+    "feature_flag_env": "SEGMENTATION_RESEARCH_V2",
+    "provider": "lightweight_block_merge",
+    "max_vertical_gap": 28.0,
+    "min_x_overlap_ratio": 0.3,
+    "sam_candidates": [
+      "sam2_precomputed",
+      "sam3_precomputed"
+    ],
+    "precomputed_segments": "../data/sam_precomputed_segments.json"
+  },
+  "downstream_quality": {
+    "extractions_reconciled": "$PDF_CASES_ROOT/CASE_MIXED_LAYOUT_STRESS_001/extractions/reconciled"
+  },
+  "output": "../results/segmentation_benchmark_case_mixed_layout_stress_001.json"
+}

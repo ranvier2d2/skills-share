@@ -1,0 +1,12 @@
+{
+  "name": "overlay-playwright-runtime-sandbox",
+  "private": true,
+  "type": "module",
+  "description": "Dedicated Playwright sandbox for the overlay-playwright-runtime skill",
+  "scripts": {
+    "install:browsers": "playwright install chromium"
+  },
+  "devDependencies": {
+    "playwright": "^1.59.1"
+  }
+}

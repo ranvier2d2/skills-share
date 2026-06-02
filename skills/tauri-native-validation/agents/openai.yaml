@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tauri Native Validation"
+  short_description: "Validate a Tauri app in a real native window"
+  default_prompt: "Use $tauri-native-validation to validate a Tauri desktop app in a real native window and capture evidence."

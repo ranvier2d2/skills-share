@@ -1,0 +1,53 @@
+flowchart LR
+  N1["Daytona Diagram"]
+  subgraph SG_EVIDENCE["Evidence Inputs"]
+    N2["Evidence Inputs"]
+    N3["Task 1 CLI and Toolbox probes"]
+    N4["Task 2 Port 18791 discovery"]
+    N5["Task 3 Gateway RPC and tools catalog"]
+  end
+  subgraph SG_FINDINGS["Capability Findings"]
+    N6["Capability Findings"]
+    N7["Daytona Toolbox transport is verified"]
+    N8["Port 18791 is not a messaging API in this setup"]
+    N9["HTTP hooks push path not active here POST returns 405"]
+  end
+  subgraph SG_DECISION["Decision"]
+    N10["Decision"]
+    N11["Replace daytona exec transport with Toolbox API"]
+    N12["Keep mailbox pull semantics"]
+  end
+  subgraph SG_IMPLEMENTATION["Implementation Delta"]
+    N13["Implementation Delta"]
+    N14["Use POST process execute"]
+    N15["Use POST files upload"]
+    N16["Use GET files download"]
+  end
+  N1 --> N2
+  N2 --> N3
+  N2 --> N4
+  N2 --> N5
+  N1 --> N6
+  N6 --> N7
+  N6 --> N8
+  N6 --> N9
+  N1 --> N10
+  N10 --> N11
+  N10 --> N12
+  N1 --> N13
+  N13 --> N14
+  N13 --> N15
+  N13 --> N16
+
+  classDef source fill:#E8F0FF,stroke:#3159B8,stroke-width:1.5px,color:#132B63;
+  classDef finding fill:#EAF8EE,stroke:#2E7D32,stroke-width:1.5px,color:#17351D;
+  classDef decision fill:#FFF4E5,stroke:#B76E00,stroke-width:1.5px,color:#5A3A00;
+  classDef action fill:#F1EDFF,stroke:#5B4BC4,stroke-width:1.5px,color:#2B245E;
+  classDef risk fill:#FDECEC,stroke:#C62828,stroke-width:1.5px,color:#6D1B1B;
+  classDef neutral fill:#F3F4F6,stroke:#6B7280,stroke-width:1.5px,color:#1F2937;
+  class N2,N3,N4,N5 source;
+  class N6,N7,N8 finding;
+  class N10,N11,N12 decision;
+  class N13,N14,N15,N16 action;
+  class N9 risk;
+  class N1 neutral;

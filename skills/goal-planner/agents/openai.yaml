@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal Planner"
+  short_description: "Plan, start, and complete Codex goals"
+  default_prompt: "Use $goal-planner to turn my intent into a concrete Codex Goal."

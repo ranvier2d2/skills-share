@@ -1,0 +1,8 @@
+interface:
+  display_name: "Vision In Time"
+  short_description: "Turn videos into timestamped evidence and timeline answers."
+  default_prompt: "Use $vision-in-time to inspect this video as state over time and answer with timestamped evidence."
+  brand_color: "#0F766E"
+
+policy:
+  allow_implicit_invocation: true

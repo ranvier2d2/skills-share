@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vision In Time Evidence Index",
+  "$comment": "Cross-field checks such as t_start < t_end and 0 <= timestamps <= video.duration_seconds are enforced by scripts/validate_evidence_index.py.",
+  "type": "object",
+  "required": ["video", "frames", "candidate_moments", "observations", "uncertainties"],
+  "properties": {
+    "video": {
+      "type": "object",
+      "required": ["source", "duration_seconds", "has_audio"],
+      "properties": {
+        "source": { "type": "string" },
+        "duration_seconds": { "type": "number", "exclusiveMinimum": 0 },
+        "width": { "type": ["integer", "null"] },
+        "height": { "type": ["integer", "null"] },
+        "fps": { "type": ["number", "null"] },
+        "has_audio": { "type": "boolean", "default": false }
+      }
+    },
+    "frames": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/evidence_pointer" }
+    },
+    "candidate_moments": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/moment" }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "t", "text", "evidence_ids"],
+        "properties": {
+          "id": { "type": "string" },
+          "t": { "type": "number" },
+          "text": { "type": "string" },
+          "evidence_ids": { "type": "array", "items": { "type": "string" } },
+          "confidence": { "type": ["string", "number", "null"] }
+        }
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "text", "evidence_ids"],
+        "properties": {
+          "id": { "type": "string" },
+          "text": { "type": "string" },
+          "evidence_ids": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "feedback": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/feedback_item" }
+    }
+  },
+  "$defs": {
+    "evidence_pointer": {
+      "type": "object",
+      "required": ["id", "type", "source", "t_start", "t_end"],
+      "properties": {
+        "id": { "type": "string" },
+        "type": { "type": "string" },
+        "source": { "type": "string" },
+        "t_start": { "type": "number", "description": "Interval start. Runtime validation enforces 0 <= t_start < t_end <= video.duration_seconds." },
+        "t_end": { "type": "number", "description": "Interval end. Runtime validation enforces 0 <= t_start < t_end <= video.duration_seconds." },
+        "path": { "type": ["string", "null"] },
+        "reason": { "type": ["string", "null"] }
+      }
+    },
+    "moment": {
+      "type": "object",
+      "required": ["id", "t_start", "t_end", "reason"],
+      "properties": {
+        "id": { "type": "string" },
+        "t_start": { "type": "number", "description": "Moment start. Runtime validation enforces 0 <= t_start < t_end <= video.duration_seconds." },
+        "t_end": { "type": "number", "description": "Moment end. Runtime validation enforces 0 <= t_start < t_end <= video.duration_seconds." },
+        "reason": { "type": "string" },
+        "evidence_ids": { "type": "array", "items": { "type": "string" } },
+        "rank": { "type": ["number", "null"] }
+      }
+    },
+    "feedback_item": {
+      "type": "object",
+      "required": ["kind", "text", "target", "suggested_window", "priority"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["missed_moment", "correction", "clarification", "user_feedback"]
+        },
+        "text": { "type": "string", "minLength": 1 },
+        "target": { "type": ["string", "null"] },
+        "suggested_window": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "required": ["t_start", "t_end"],
+              "additionalProperties": false,
+              "properties": {
+                "t_start": { "type": "number" },
+                "t_end": { "type": "number" }
+              }
+            }
+          ]
+        },
+        "priority": { "type": "string", "enum": ["low", "medium", "high"] }
+      }
+    }
+  }
+}

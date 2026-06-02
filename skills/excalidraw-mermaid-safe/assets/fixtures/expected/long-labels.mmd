@@ -1,0 +1,19 @@
+flowchart LR
+  N1["Diagram With Long Labels"]
+  subgraph SG_IMPLEMENTATION["Implementation Delta"]
+    N2["Implementation Delta"]
+    N3["This single item intentionally contains an overlong label that should be truncated before it..."]
+    N4["Use stable wrapper commands for repeatable validation."]
+  end
+  N1 --> N2
+  N2 --> N3
+  N2 --> N4
+
+  classDef source fill:#E8F0FF,stroke:#3159B8,stroke-width:1.5px,color:#132B63;
+  classDef finding fill:#EAF8EE,stroke:#2E7D32,stroke-width:1.5px,color:#17351D;
+  classDef decision fill:#FFF4E5,stroke:#B76E00,stroke-width:1.5px,color:#5A3A00;
+  classDef action fill:#F1EDFF,stroke:#5B4BC4,stroke-width:1.5px,color:#2B245E;
+  classDef risk fill:#FDECEC,stroke:#C62828,stroke-width:1.5px,color:#6D1B1B;
+  classDef neutral fill:#F3F4F6,stroke:#6B7280,stroke-width:1.5px,color:#1F2937;
+  class N2,N3,N4 action;
+  class N1 neutral;

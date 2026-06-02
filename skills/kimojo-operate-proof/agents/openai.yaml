@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kimojo Operate Proof"
+  short_description: "Validate and prove the Operate UI and orchestrator web control plane"
+  default_prompt: "Use $kimojo-operate-proof to validate `kimojo serve --web`, inspect `/operate/orchestrator`, cross-check runtime truth, and produce visual proof."

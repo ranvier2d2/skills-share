@@ -1,0 +1,3448 @@
+{
+  "case_id": "CASE_MIXED_LAYOUT_STRESS_001",
+  "created_at": "2026-02-12",
+  "label_quality": "bootstrap",
+  "pages": {
+    "doc01_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc01_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc01_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc01_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc01_page0002": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc01_page0002_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc01_page0002_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc01_page0002_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc01_page0003": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc01_page0003_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc01_page0003_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc01_page0003_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc01_page0004": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc01_page0004_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc01_page0004_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc01_page0004_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc01_page0005": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc01_page0005_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc01_page0005_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc01_page0005_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc01_page0006": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc01_page0006_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc01_page0006_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc01_page0006_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc01_page0007": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc01_page0007_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc01_page0007_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc01_page0007_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc01_page0008": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc01_page0008_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc01_page0008_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc01_page0008_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc02_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc02_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc02_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc02_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc02_page0002": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc02_page0002_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc02_page0002_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc02_page0002_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc02_page0003": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc02_page0003_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc02_page0003_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc02_page0003_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc02_page0004": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc02_page0004_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc02_page0004_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc02_page0004_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc02_page0005": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc02_page0005_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc02_page0005_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc02_page0005_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc02_page0006": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc02_page0006_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc02_page0006_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc02_page0006_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc02_page0007": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc02_page0007_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc02_page0007_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc02_page0007_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc02_page0008": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc02_page0008_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc02_page0008_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc02_page0008_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0002": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0002_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0002_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0002_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0003": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0003_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0003_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0003_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0004": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0004_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0004_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0004_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0005": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0005_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0005_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0005_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0006": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0006_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0006_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0006_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0007": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0007_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0007_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0007_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0008": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0008_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0008_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0008_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0009": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0009_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0009_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0009_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0010": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0010_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0010_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0010_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0011": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0011_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0011_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0011_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0012": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0012_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0012_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0012_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0013": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0013_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0013_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0013_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0014": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0014_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0014_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0014_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0015": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0015_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0015_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0015_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc03_page0016": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 168.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 112.0
+          },
+          "id": "doc03_page0016_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1047.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 374.0
+          },
+          "id": "doc03_page0016_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 224.0,
+            "w": 2033.0,
+            "x": 194.0,
+            "y": 1496.0
+          },
+          "id": "doc03_page0016_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0002": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0002_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0002_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0002_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0003": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0003_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0003_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0003_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0004": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0004_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0004_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0004_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0005": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0005_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0005_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0005_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0006": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0006_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0006_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0006_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0007": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0007_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0007_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0007_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0008": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0008_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0008_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0008_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0009": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0009_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0009_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0009_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0010": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0010_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0010_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0010_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0011": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0011_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0011_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0011_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc04_page0012": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc04_page0012_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc04_page0012_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc04_page0012_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc05_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc05_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc05_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc05_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc05_page0002": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc05_page0002_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc05_page0002_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc05_page0002_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc06_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc06_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc06_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc06_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc07_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc07_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc07_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc07_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc07_page0002": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc07_page0002_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc07_page0002_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc07_page0002_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc07_page0003": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc07_page0003_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc07_page0003_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc07_page0003_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc08_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc08_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc08_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc08_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc09_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc09_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc09_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc09_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc10_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc10_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc10_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc10_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc10_page0002": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc10_page0002_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc10_page0002_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc10_page0002_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc10_page0003": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc10_page0003_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc10_page0003_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc10_page0003_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc10_page0004": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc10_page0004_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc10_page0004_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc10_page0004_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc10_page0005": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc10_page0005_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc10_page0005_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc10_page0005_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc10_page0006": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc10_page0006_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc10_page0006_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc10_page0006_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc10_page0007": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc10_page0007_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc10_page0007_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc10_page0007_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc10_page0008": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 218.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 145.0
+          },
+          "id": "doc10_page0008_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1355.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 484.0
+          },
+          "id": "doc10_page0008_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 290.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 1936.0
+          },
+          "id": "doc10_page0008_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0002": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0002_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0002_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0002_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0003": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0003_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0003_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0003_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0004": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0004_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0004_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0004_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0005": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0005_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0005_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0005_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0006": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0006_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0006_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0006_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0007": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0007_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0007_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0007_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0008": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0008_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0008_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0008_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0009": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0009_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0009_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0009_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0010": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0010_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0010_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0010_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0011": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0011_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0011_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0011_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0012": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0012_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0012_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0012_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0013": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0013_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0013_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0013_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0014": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0014_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0014_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0014_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0015": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0015_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0015_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0015_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0016": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0016_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0016_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0016_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0017": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0017_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0017_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0017_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc11_page0018": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 232.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 154.0
+          },
+          "id": "doc11_page0018_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1441.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 515.0
+          },
+          "id": "doc11_page0018_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 309.0,
+            "w": 1528.0,
+            "x": 146.0,
+            "y": 2058.0
+          },
+          "id": "doc11_page0018_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc12_page0001": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 277.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 185.0
+          },
+          "id": "doc12_page0001_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1725.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 616.0
+          },
+          "id": "doc12_page0001_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 370.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 2464.0
+          },
+          "id": "doc12_page0001_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    },
+    "doc12_page0002": {
+      "blocks": [
+        {
+          "bbox": {
+            "h": 277.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 185.0
+          },
+          "id": "doc12_page0002_e01",
+          "label": "doc_header_anchor",
+          "order": 1,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 1725.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 616.0
+          },
+          "id": "doc12_page0002_e02",
+          "label": "content_block_anchor",
+          "order": 2,
+          "source": "bootstrap_from_codex_findings"
+        },
+        {
+          "bbox": {
+            "h": 370.0,
+            "w": 1571.0,
+            "x": 150.0,
+            "y": 2464.0
+          },
+          "id": "doc12_page0002_e03",
+          "label": "source_reference_anchor",
+          "order": 3,
+          "source": "bootstrap_from_codex_findings"
+        }
+      ],
+      "notes": [
+        "Bootstrap labels derived from codex_findings_v2 entities; replace with human labels for decision-grade evaluation."
+      ]
+    }
+  },
+  "source": "$PDF_CASES_ROOT/CASE_MIXED_LAYOUT_STRESS_001/extractions/raw/codex_findings.json"
+}

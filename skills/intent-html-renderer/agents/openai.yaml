@@ -1,0 +1,4 @@
+interface:
+  display_name: "Intent UI Renderer"
+  short_description: "Infer intent and render local UI."
+  default_prompt: "Use $intent-html-renderer to infer the right interface and render it with the local UI system when available."

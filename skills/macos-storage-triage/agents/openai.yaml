@@ -1,0 +1,4 @@
+interface:
+  display_name: "macOS Storage Triage"
+  short_description: "Audit and safely free macOS disk space."
+  default_prompt: "Use $macos-storage-triage to audit disk usage, rank cleanup candidates by risk and value, and run only confirmed safe cleanup actions."

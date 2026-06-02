@@ -1,0 +1,37 @@
+{
+  "callouts": [
+    {
+      "anchor": {
+        "id": "heading-35"
+      },
+      "text": "The framing is strong, but the recommended path still has to be inferred from the cards rather than stated up front.",
+      "placement": "top",
+      "width": 235,
+      "gap": 20,
+      "label": "Recommendation buried"
+    },
+    {
+      "anchor": {
+        "id": "heading-36"
+      },
+      "text": "This reads like the default human path, but it does not get stronger visual priority than the other install methods.",
+      "placement": "left",
+      "width": 215,
+      "gap": 18,
+      "dx": 28,
+      "dy": 40,
+      "label": "Should lead"
+    },
+    {
+      "anchor": {
+        "id": "interactive-55"
+      },
+      "text": "The bookmarklet pill pulls attention well, but the CSP limitation sits lower in the copy and is easy to miss.",
+      "placement": "bottom",
+      "width": 210,
+      "gap": 24,
+      "dx": 40,
+      "label": "Important caveat"
+    }
+  ]
+}

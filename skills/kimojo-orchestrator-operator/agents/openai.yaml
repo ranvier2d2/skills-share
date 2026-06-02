@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kimojo Operator"
+  short_description: "Operate Kimojo Orchestrator from CLI, daemon, API, and Operate UI"
+  default_prompt: "Use $kimojo-orchestrator-operator to bootstrap or operate Kimojo Orchestrator, choose the right control surface, verify readiness, and report validation and handoff truth."

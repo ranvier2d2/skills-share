@@ -1,0 +1,4 @@
+interface:
+  display_name: "Excalidraw Mermaid Safe"
+  short_description: "Generate Excalidraw-safe Mermaid diagrams"
+  default_prompt: "Use $excalidraw-mermaid-safe to turn this outline into an Excalidraw-compatible Mermaid flowchart."

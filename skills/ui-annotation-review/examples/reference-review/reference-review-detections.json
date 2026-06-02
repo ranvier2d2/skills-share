@@ -1,0 +1,88 @@
+{
+  "viewport": {
+    "scrollX": 0,
+    "scrollY": 2760,
+    "width": 1200,
+    "height": 841
+  },
+  "detections": [
+    {
+      "id": "landmark-7",
+      "kind": "landmark",
+      "label": "<section> · region",
+      "rect": {
+        "x": 142.5,
+        "y": 2889.0078125,
+        "w": 900,
+        "h": 336.8359375,
+        "cx": 592.5,
+        "cy": 3057.42578125
+      },
+      "meta": {
+        "kind": "landmark",
+        "tag": "section",
+        "role": "region",
+        "className": "",
+        "text": "§ 06 Skills to pre-create new-convex-function Invoked: adding any new mutation/query/action."
+      }
+    },
+    {
+      "id": "landmark-8",
+      "kind": "landmark",
+      "label": "<section> · region",
+      "rect": {
+        "x": 142.5,
+        "y": 3297.84375,
+        "w": 900,
+        "h": 547.921875,
+        "cx": 592.5,
+        "cy": 3571.8046875
+      },
+      "meta": {
+        "kind": "landmark",
+        "tag": "section",
+        "role": "region",
+        "className": "",
+        "text": "§ 07 What the agent can't do alone Decisions the agent should flag and wait on, not guess."
+      }
+    },
+    {
+      "id": "heading-19",
+      "kind": "heading",
+      "label": "h2 · Skills to pre-create",
+      "rect": {
+        "x": 194.1875,
+        "y": 2889.0078125,
+        "w": 848.3125,
+        "h": 33,
+        "cx": 618.34375,
+        "cy": 2905.5078125
+      },
+      "meta": {
+        "kind": "heading",
+        "level": 2,
+        "tag": "h2",
+        "text": "Skills to pre-create"
+      }
+    },
+    {
+      "id": "heading-20",
+      "kind": "heading",
+      "label": "h2 · What the agent can't do alone",
+      "rect": {
+        "x": 194.1875,
+        "y": 3297.84375,
+        "w": 848.3125,
+        "h": 33,
+        "cx": 618.34375,
+        "cy": 3314.34375
+      },
+      "meta": {
+        "kind": "heading",
+        "level": 2,
+        "tag": "h2",
+        "text": "What the agent can't do alone"
+      }
+    }
+  ]
+}

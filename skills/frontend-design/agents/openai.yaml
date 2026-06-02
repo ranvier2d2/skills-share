@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Design"
+  short_description: "Diseñar frontends visuales para presentaciones clínicas"
+  default_prompt: "Diseña o mejora un HTML de reporte clínico para reunión: resumen ejecutivo, semáforos, matriz y anexos de método en formato legible y accionable."

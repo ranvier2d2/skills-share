@@ -1,0 +1,4 @@
+interface:
+  display_name: "Task Creator"
+  short_description: "Create numbered task docs from project templates"
+  default_prompt: "Use $task-creator to create a numbered task document from this project's task template."

@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{target_name}} Accessibility Audit</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0d0f14;
+        --panel: #171a21;
+        --panel-alt: #10131a;
+        --text: #edf1f7;
+        --muted: #9ca6b4;
+        --line: #2b3340;
+        --accent: #ff8a65;
+        --accent-soft: #ffe8dd;
+        --good: #79d7b7;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(38, 153, 124, 0.18), transparent 28%),
+          radial-gradient(circle at bottom right, rgba(162, 66, 66, 0.18), transparent 30%),
+          var(--bg);
+        color: var(--text);
+        line-height: 1.5;
+      }
+      main {
+        width: min(1240px, calc(100vw - 40px));
+        margin: 28px auto 64px;
+      }
+      section, .hero, .card {
+        background: rgba(23, 26, 33, 0.94);
+        border: 1px solid var(--line);
+        border-radius: 22px;
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+      }
+      .hero {
+        padding: 28px 30px;
+        margin-bottom: 24px;
+      }
+      section {
+        padding: 24px;
+        margin-bottom: 22px;
+      }
+      h1, h2, h3 {
+        margin: 0 0 12px;
+        line-height: 1.15;
+      }
+      h1 {
+        font-size: clamp(2rem, 4vw, 3rem);
+        letter-spacing: 0.02em;
+      }
+      h2 { font-size: 1.35rem; }
+      p, li, td, th { font-size: 0.98rem; }
+      .lede {
+        max-width: 78ch;
+        color: var(--accent-soft);
+      }
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 18px;
+        margin-top: 22px;
+      }
+      .card {
+        padding: 18px;
+      }
+      .label {
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-size: 0.72rem;
+      }
+      .value {
+        margin-top: 8px;
+        font-size: 1.85rem;
+        font-weight: 700;
+      }
+      .two-up {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 18px;
+      }
+      .issue {
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 18px;
+        background: rgba(255,255,255,0.02);
+      }
+      .issue h3 {
+        color: var(--accent);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th, td {
+        text-align: left;
+        padding: 12px 10px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+      tr:last-child td {
+        border-bottom: none;
+      }
+      th {
+        color: var(--accent-soft);
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+      a {
+        color: var(--good);
+      }
+      .evidence-carousel {
+        position: relative;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: var(--panel-alt);
+      }
+      .carousel-viewport {
+        position: relative;
+        min-height: 520px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.02);
+      }
+      .carousel-slide {
+        display: none;
+        width: 100%;
+      }
+      .carousel-slide.is-active {
+        display: block;
+      }
+      .carousel-slide figure {
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        background: transparent;
+      }
+      .carousel-media {
+        position: relative;
+      }
+      .carousel-slide img {
+        display: block;
+        width: 100%;
+        max-height: min(72vh, 920px);
+        object-fit: contain;
+        background: #0a0c10;
+      }
+      .annotation-overlay {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+      }
+      .annotation-overlay svg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+      }
+      .annotation-arrow {
+        stroke: #ff8a65;
+        stroke-width: 0.5;
+        fill: none;
+        vector-effect: non-scaling-stroke;
+      }
+      .annotation-arrow-head {
+        fill: #ff8a65;
+      }
+      .annotation-note {
+        position: absolute;
+        max-width: min(22rem, 34vw);
+        padding: 10px 12px;
+        border-radius: 14px;
+        border: 1px solid rgba(255, 217, 102, 0.65);
+        background: rgba(255, 245, 200, 0.92);
+        color: #1b1b12;
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+        transform: translate(-8px, -50%);
+      }
+      .annotation-note-title {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .carousel-caption {
+        padding: 14px 4px 2px;
+        color: var(--muted);
+      }
+      .carousel-controls {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-top: 16px;
+      }
+      .carousel-buttons {
+        display: flex;
+        gap: 10px;
+      }
+      .carousel-button {
+        appearance: none;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.04);
+        color: var(--text);
+        padding: 10px 14px;
+        border-radius: 999px;
+        cursor: pointer;
+        font: inherit;
+      }
+      .carousel-button:hover {
+        border-color: var(--accent);
+      }
+      .carousel-status {
+        color: var(--accent-soft);
+        font-size: 0.9rem;
+      }
+      .carousel-dots {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: flex-end;
+      }
+      .carousel-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        border: none;
+        background: rgba(255,255,255,0.2);
+        cursor: pointer;
+        padding: 0;
+      }
+      .carousel-dot.is-active {
+        background: var(--accent);
+      }
+      .meta-list li {
+        margin-bottom: 6px;
+      }
+      code {
+        background: rgba(255,255,255,0.06);
+        padding: 0.14em 0.4em;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <h1>{{target_name}}</h1>
+        <p class="lede">{{overall_summary}}</p>
+        <ul class="meta-list">
+          <li><strong>Primary URL:</strong> {{primary_url}}</li>
+          <li><strong>Audit mode:</strong> {{audit_mode}}</li>
+          <li><strong>Audit date:</strong> {{audit_date}}</li>
+          <li><strong>Surface highlights:</strong> {{surface_highlights}}</li>
+        </ul>
+        <div class="stats">
+          {{surface_count_cards_html}}
+        </div>
+      </section>
+
+      <section>
+        <h2>Top Findings</h2>
+        <ul>{{top_findings_html}}</ul>
+      </section>
+
+      <section>
+        <h2>Recommended Fix Order</h2>
+        <ul>{{fix_order_html}}</ul>
+      </section>
+
+      <section>
+        <h2>Results Summary</h2>
+        <div class="two-up">
+          <div class="issue">
+            <h3>Counts</h3>
+            <ul class="meta-list">
+              <li><strong>Total findings:</strong> {{total_findings}}</li>
+              <li><strong>Errors:</strong> {{error_count}}</li>
+              <li><strong>Warnings:</strong> {{warning_count}}</li>
+              <li><strong>Pass / informational:</strong> {{pass_or_info_counts}}</li>
+              <li><strong>Tested surfaces:</strong> {{surface_count_summary}}</li>
+            </ul>
+          </div>
+          <div class="issue">
+            <h3>Distribution</h3>
+            <ul class="meta-list">
+              <li><strong>By slice:</strong> {{slice_summary}}</li>
+              <li><strong>By finding type:</strong> {{finding_type_summary}}</li>
+              <li><strong>Presets:</strong> {{presets_used}}</li>
+              <li><strong>Touch profile:</strong> {{touch_profile}}</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Detailed Findings</h2>
+        <div class="two-up">
+          {{detailed_findings_html}}
+        </div>
+      </section>
+
+      <section>
+        <h2>Evidence and Artifacts</h2>
+        <ul>{{artifact_links_html}}</ul>
+      </section>
+
+      <section>
+        <h2>Visual Evidence</h2>
+        <div class="evidence-carousel" data-carousel>
+          <div class="carousel-viewport">
+            {{evidence_gallery_html}}
+          </div>
+          <div class="carousel-controls">
+            <div class="carousel-buttons">
+              <button class="carousel-button" type="button" data-carousel-prev>Previous</button>
+              <button class="carousel-button" type="button" data-carousel-next>Next</button>
+            </div>
+            <div class="carousel-status" data-carousel-status>1 / 1</div>
+            <div class="carousel-dots" data-carousel-dots></div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Limitations and Confidence</h2>
+        <ul>
+          {{limitations_html}}
+        </ul>
+        <p>{{confidence_notes}}</p>
+      </section>
+    </main>
+    <script>
+      (() => {
+        const carousels = document.querySelectorAll('[data-carousel]');
+        for (const carousel of carousels) {
+          const slides = Array.from(carousel.querySelectorAll('.carousel-slide'));
+          const status = carousel.querySelector('[data-carousel-status]');
+          const dotsRoot = carousel.querySelector('[data-carousel-dots]');
+          const prevButton = carousel.querySelector('[data-carousel-prev]');
+          const nextButton = carousel.querySelector('[data-carousel-next]');
+          if (!slides.length) {
+            if (status) status.textContent = 'No screenshots';
+            if (prevButton) prevButton.disabled = true;
+            if (nextButton) nextButton.disabled = true;
+            continue;
+          }
+
+          let index = 0;
+          const dots = slides.map((_, dotIndex) => {
+            const dot = document.createElement('button');
+            dot.type = 'button';
+            dot.className = 'carousel-dot';
+            dot.setAttribute('aria-label', `Show visual evidence ${dotIndex + 1}`);
+            dot.addEventListener('click', () => render(dotIndex));
+            dotsRoot?.appendChild(dot);
+            return dot;
+          });
+
+          function render(nextIndex) {
+            index = (nextIndex + slides.length) % slides.length;
+            slides.forEach((slide, slideIndex) => {
+              slide.classList.toggle('is-active', slideIndex === index);
+            });
+            dots.forEach((dot, dotIndex) => {
+              dot.classList.toggle('is-active', dotIndex === index);
+            });
+            if (status) status.textContent = `${index + 1} / ${slides.length}`;
+          }
+
+          prevButton?.addEventListener('click', () => render(index - 1));
+          nextButton?.addEventListener('click', () => render(index + 1));
+          render(0);
+        }
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ableton Songwriting Copilot"
+  short_description: "Run ChordChemist with Ableton Live"
+  default_prompt: "Use $ableton-songwriting-copilot to prepare my ChordChemist M4L session and help me write or send musical ideas to Ableton."

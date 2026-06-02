@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChordChemist Composer"
+  short_description: "CLI and Workbench composition assistant"
+  default_prompt: "Use $chordchemist-composer to generate, analyze, adapt, or validate ChordChemist harmony, melody, and Copilot Workbench behavior."

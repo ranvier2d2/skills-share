@@ -1,0 +1,4 @@
+interface:
+  display_name: "AGENTS.md Screaming Architecture"
+  short_description: "Write AGENTS.md/.agents.md files that clearly define per-directory purpose, rules, and validation commands."
+  default_prompt: "Add or standardize Codex instruction files (AGENTS.md / AGENTS.override.md, or .agents.md if requested) using a 'Screaming Architecture' style. First, list the repo's true architecture boundaries (root + key subdirs like src/app/packages/services/scripts/tests/docs/.github) and exclude generated/vendor/caches. Then propose the minimal set of instruction files to add (root + only subdirs that need local rules), each with: (1) 1–2 lines of purpose, (2) local invariants/guardrails, (3) exact fast-check commands to run. Keep files non-empty and small; avoid duplicating root guidance in subdirs."

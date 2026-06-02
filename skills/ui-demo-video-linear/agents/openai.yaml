@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Demo Video Linear"
+  short_description: "Record and attach UI demos to Linear issues"
+  default_prompt: "Record a short UI demo with Playwright, locate the final video, attach it to the target Linear issue, and leave a concise summary comment."

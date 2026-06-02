@@ -1,0 +1,4 @@
+interface:
+  display_name: "Overlay Playwright Runtime"
+  short_description: "Case-routed audits and overlay runtime adoption"
+  default_prompt: "Use $overlay-playwright-runtime to classify the user's case first, present the best-fit workflow in plain terms, then route to the right helper for public, responsive, authenticated, desktop-shell, or adopt flows."

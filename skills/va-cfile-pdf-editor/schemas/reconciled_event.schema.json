@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "reconciled_event.schema.json",
+  "type": "object",
+  "required": [
+    "page_id",
+    "source_pdf",
+    "source_page",
+    "analysis_pass",
+    "entities",
+    "events",
+    "uncertainties"
+  ],
+  "properties": {
+    "page_id": {"type": "string"},
+    "source_pdf": {"type": "string"},
+    "source_page": {"type": "integer", "minimum": 1},
+    "analysis_pass": {"type": "string", "enum": ["reconciled"]},
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "entity_id",
+          "entity_type",
+          "bbox",
+          "text",
+          "confidence",
+          "chronology_role",
+          "redaction_recommended",
+          "selected_from"
+        ],
+        "properties": {
+          "entity_id": {"type": "string"},
+          "entity_type": {"type": "string"},
+          "bbox": {
+            "type": "object",
+            "required": ["x", "y", "w", "h"],
+            "properties": {
+              "x": {"type": "number"},
+              "y": {"type": "number"},
+              "w": {"type": "number", "exclusiveMinimum": 0},
+              "h": {"type": "number", "exclusiveMinimum": 0}
+            },
+            "additionalProperties": false
+          },
+          "text": {"type": "string"},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "chronology_role": {"type": "string", "minLength": 1},
+          "redaction_recommended": {"type": "boolean"},
+          "selected_from": {"type": "string", "enum": ["raw", "edited"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event_id",
+          "event_type",
+          "summary",
+          "date",
+          "date_confidence",
+          "confidence",
+          "condition_tags",
+          "evidence",
+          "selected_from"
+        ],
+        "properties": {
+          "event_id": {"type": "string"},
+          "event_type": {"type": "string", "minLength": 1},
+          "summary": {"type": "string"},
+          "actor": {"type": ["string", "null"]},
+          "date": {"type": ["string", "null"]},
+          "date_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "condition_tags": {"type": "array", "items": {"type": "string"}},
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["quote", "bbox_id", "page_ref", "entity_id"],
+              "properties": {
+                "quote": {"type": "string"},
+                "bbox_id": {"type": "string"},
+                "page_ref": {"type": "string"},
+                "entity_id": {"type": "string"}
+              },
+              "additionalProperties": false
+            }
+          },
+          "selected_from": {"type": "string", "enum": ["raw", "edited"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "uncertainties": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

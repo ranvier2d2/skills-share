@@ -1,0 +1,8 @@
+{
+  "schema_version": "sam_precomputed_segments_v1",
+  "notes": [
+    "Populate pages.<page_id>.blocks with SAM-family precomputed segment boxes.",
+    "This file is intentionally empty scaffold for Iteration 2 research runs."
+  ],
+  "pages": {}
+}

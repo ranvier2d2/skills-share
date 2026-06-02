@@ -1,0 +1,10 @@
+/* svg-css-enhancer preset: print-clean */
+
+.svg-bg { fill: #ffffff; }
+svg { color: #0f172a; }
+text { fill: #0f172a; }
+
+.svg-el {
+  vector-effect: non-scaling-stroke;
+  shape-rendering: geometricPrecision;
+}

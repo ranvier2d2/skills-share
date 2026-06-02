@@ -1,0 +1,37 @@
+{
+  "callouts": [
+    {
+      "anchor": {
+        "id": "heading-19"
+      },
+      "text": "The section restart is clear, but the first card lands almost immediately under the divider. A little more breathing room would improve the scan reset.",
+      "placement": "top",
+      "width": 240,
+      "gap": 22,
+      "label": "Tight restart"
+    },
+    {
+      "anchor": {
+        "id": "landmark-7"
+      },
+      "text": "The uniform card treatment keeps the list tidy, but it also hides which skills are required first versus later additions.",
+      "placement": "right",
+      "width": 210,
+      "gap": 24,
+      "dx": -6,
+      "label": "Priority blur"
+    },
+    {
+      "anchor": {
+        "id": "heading-20"
+      },
+      "text": "This section carries hard-stop decisions, but the severity still feels close to the routine guidance above. Stronger warning semantics would help.",
+      "placement": "right",
+      "width": 205,
+      "gap": 22,
+      "dx": -8,
+      "dy": 18,
+      "label": "Needs escalation"
+    }
+  ]
+}

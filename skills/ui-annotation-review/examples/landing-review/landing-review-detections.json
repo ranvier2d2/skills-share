@@ -1,0 +1,108 @@
+{
+  "viewport": {
+    "scrollX": 0,
+    "scrollY": 5550,
+    "width": 1200,
+    "height": 841
+  },
+  "detections": [
+    {
+      "id": "landmark-8",
+      "kind": "landmark",
+      "label": "<section> · region.blk",
+      "rect": {
+        "x": 0,
+        "y": 5660.15625,
+        "w": 1185,
+        "h": 1073.6328125,
+        "cx": 592.5,
+        "cy": 6196.97265625
+      },
+      "meta": {
+        "kind": "landmark",
+        "tag": "section",
+        "role": "region",
+        "className": "blk",
+        "text": "Where to use it Use it where the page already lives. The right surface depends on who owns the page."
+      }
+    },
+    {
+      "id": "heading-35",
+      "kind": "heading",
+      "label": "h2 · Use it where the page already lives.",
+      "rect": {
+        "x": 60.5,
+        "y": 5779.15625,
+        "w": 780,
+        "h": 41.46875,
+        "cx": 450.5,
+        "cy": 5799.890625
+      },
+      "meta": {
+        "kind": "heading",
+        "level": 2,
+        "tag": "h2",
+        "text": "Use it where the page already lives."
+      }
+    },
+    {
+      "id": "heading-36",
+      "kind": "heading",
+      "label": "h5 jump from h2 · 01 · Extension",
+      "rect": {
+        "x": 87.5,
+        "y": 5968.7109375,
+        "w": 228.6796875,
+        "h": 16,
+        "cx": 201.83984375,
+        "cy": 5976.7109375
+      },
+      "meta": {
+        "kind": "heading",
+        "level": 5,
+        "tag": "h5",
+        "text": "01 · Extension"
+      }
+    },
+    {
+      "id": "heading-39",
+      "kind": "heading",
+      "label": "h5 · 04 · Playwright",
+      "rect": {
+        "x": 852.84375,
+        "y": 5968.7109375,
+        "w": 354.5234375,
+        "h": 16,
+        "cx": 1030.10546875,
+        "cy": 5976.7109375
+      },
+      "meta": {
+        "kind": "heading",
+        "level": 5,
+        "tag": "h5",
+        "text": "04 · Playwright"
+      }
+    },
+    {
+      "id": "interactive-55",
+      "kind": "interactive",
+      "label": "a[link] · ⚡ a11y overlay",
+      "rect": {
+        "x": 369.1796875,
+        "y": 6202.6015625,
+        "w": 82.71875,
+        "h": 53.1875,
+        "cx": 410.5390625,
+        "cy": 6229.1953125
+      },
+      "meta": {
+        "kind": "interactive",
+        "tag": "a",
+        "role": "link",
+        "text": "⚡ a11y overlay",
+        "ariaLabel": "",
+        "href": "javascript:(function(){...})();"
+      }
+    }
+  ]
+}

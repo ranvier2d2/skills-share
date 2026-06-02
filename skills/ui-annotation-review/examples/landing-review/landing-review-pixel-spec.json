@@ -1,0 +1,45 @@
+{
+  "notes": [
+    {
+      "x": 333,
+      "y": 55,
+      "width": 235,
+      "text": "The framing is strong, but the recommended path still has to be inferred from the cards rather than stated up front."
+    },
+    {
+      "x": 12,
+      "y": 390,
+      "width": 215,
+      "text": "This reads like the default human path, but it does not get stronger visual priority than the other install methods."
+    },
+    {
+      "x": 346,
+      "y": 675,
+      "width": 210,
+      "text": "The bookmarklet pill pulls attention well, but the CSP limitation sits lower in the copy and is easy to miss."
+    }
+  ],
+  "arrows": [
+    {
+      "x1": 450,
+      "y1": 209,
+      "x2": 450,
+      "y2": 229,
+      "label": "Recommendation buried"
+    },
+    {
+      "x1": 227,
+      "y1": 467,
+      "x2": 88,
+      "y2": 427,
+      "label": "Should lead"
+    },
+    {
+      "x1": 451,
+      "y1": 675,
+      "x2": 411,
+      "y2": 706,
+      "label": "Important caveat"
+    }
+  ]
+}

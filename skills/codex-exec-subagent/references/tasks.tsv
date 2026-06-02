@@ -1,0 +1,4 @@
+# name<TAB>prompt<TAB>cwd(optional)
+resolver_audit	Inspect resolver fallback behavior and return concise findings with file paths.	.
+cli_contract	Audit CLI command compatibility wrappers and list regressions.	.
+test_gaps	Identify missing tests for recent changes and propose targeted test cases.	.

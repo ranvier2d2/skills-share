@@ -1,0 +1,31 @@
+{
+  "root": "summary",
+  "elements": {
+    "summary": {
+      "type": "Card",
+      "props": {
+        "title": "Productization Summary",
+        "description": "Ranked by demo readiness"
+      },
+      "children": ["status", "action"]
+    },
+    "status": {
+      "type": "Badge",
+      "props": {
+        "label": "Demo ready",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "action": {
+      "type": "Button",
+      "props": {
+        "label": "Build demo plan",
+        "variant": "default",
+        "size": "default",
+        "action": "openDemoPlan"
+      },
+      "children": []
+    }
+  }
+}

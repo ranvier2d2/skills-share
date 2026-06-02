@@ -1,0 +1,55 @@
+flowchart LR
+  N1["Launch Review"]
+  subgraph SG_EVIDENCE["Evidence Inputs"]
+    N2["Evidence Inputs"]
+    N3["Context Inputs"]
+    N4["Product brief includes migration notes"]
+    N5["Customer escalation URL should not appear"]
+  end
+  subgraph SG_FINDINGS["Capability Findings"]
+    N6["Capability Findings"]
+    N7["Risks and Issues"]
+    N8["Raw URLs can break labels"]
+    N9["Long labels can make Excalidraw imports hard to scan on smaller canvases"]
+  end
+  subgraph SG_DECISION["Decision"]
+    N10["Decision"]
+    N11["Decision Options"]
+    N12["Keep current importer: blocked by parser drift"]
+    N13["Generate safer Mermaid: recommended"]
+  end
+  subgraph SG_IMPLEMENTATION["Implementation Delta"]
+    N14["Implementation Delta"]
+    N15["Next Steps"]
+    N16["Add fixture tests"]
+    N17["Run doctor checks before publishing"]
+  end
+  N1 --> N2
+  N2 --> N3
+  N3 --> N4
+  N3 --> N5
+  N1 --> N6
+  N6 --> N7
+  N7 --> N8
+  N7 --> N9
+  N1 --> N10
+  N10 --> N11
+  N11 --> N12
+  N11 --> N13
+  N1 --> N14
+  N14 --> N15
+  N15 --> N16
+  N15 --> N17
+
+  classDef source fill:#E8F0FF,stroke:#3159B8,stroke-width:1.5px,color:#132B63;
+  classDef finding fill:#EAF8EE,stroke:#2E7D32,stroke-width:1.5px,color:#17351D;
+  classDef decision fill:#FFF4E5,stroke:#B76E00,stroke-width:1.5px,color:#5A3A00;
+  classDef action fill:#F1EDFF,stroke:#5B4BC4,stroke-width:1.5px,color:#2B245E;
+  classDef risk fill:#FDECEC,stroke:#C62828,stroke-width:1.5px,color:#6D1B1B;
+  classDef neutral fill:#F3F4F6,stroke:#6B7280,stroke-width:1.5px,color:#1F2937;
+  class N2,N3,N4,N5 source;
+  class N6,N7,N8,N9 finding;
+  class N10,N11,N13 decision;
+  class N14,N15,N16,N17 action;
+  class N12 risk;
+  class N1 neutral;

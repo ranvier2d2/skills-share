@@ -1,0 +1,4 @@
+interface:
+  display_name: "Render HTML Intent"
+  short_description: "Turn natural-language intent into a rendered HTML artifact."
+  default_prompt: "Create a rendered HTML page from this natural-language request:"

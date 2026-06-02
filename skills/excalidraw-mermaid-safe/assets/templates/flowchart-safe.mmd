@@ -1,0 +1,27 @@
+flowchart LR
+  subgraph SRC["Evidence Inputs"]
+    A1["Task 1 probes"]
+    A2["Task 2 discovery"]
+  end
+
+  subgraph FND["Capability Findings"]
+    B1["Transport verified"]
+    B2["Messaging API not observed"]
+  end
+
+  subgraph DEC["Decision"]
+    C1["Use Toolbox API"]
+    C2["Keep mailbox pull"]
+  end
+
+  A1 --> B1
+  A2 --> B2
+  B1 --> C1
+  B2 --> C2
+
+  classDef source fill:#E8F0FF,stroke:#3159B8,stroke-width:1.5px,color:#132B63;
+  classDef finding fill:#EAF8EE,stroke:#2E7D32,stroke-width:1.5px,color:#17351D;
+  classDef decision fill:#FFF4E5,stroke:#B76E00,stroke-width:1.5px,color:#5A3A00;
+  class A1,A2 source;
+  class B1,B2 finding;
+  class C1,C2 decision;

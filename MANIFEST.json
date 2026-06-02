@@ -1,0 +1,362 @@
+[
+  {
+    "name": "ableton-computer-use-daw-adapter",
+    "description": "Use Computer Use as a verified UI adapter for Ableton Live production workflows, especially when Live API, AbletonOSC, scripts, or Max for Live cannot expose an action directly. Use when operating Ableton/plugin UI, exposing device parameters, reconciling UI state with RuntimeState, loading presets, or recovering from bridge gaps without relying on blind clicks.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/ableton-computer-use-daw-adapter"
+  },
+  {
+    "name": "ableton-live-m4l-codex",
+    "description": "Operate Ableton + Max for Live production workflow with a stateful, evidence-based practice, including 30/60/90 minute studio blocks, Codex-assisted generation, and weekly consistency controls. Use when the user wants to run, refine, or operationalize a production session with this workflow.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/ableton-live-m4l-codex"
+  },
+  {
+    "name": "ableton-producer-copilot",
+    "description": "Use when helping a songwriter, beatmaker, or music producer create music with ChordChemist and Ableton Live: turning a vibe, reference, lyric, vocal range, chord loop, or rough intent into keys, chord progressions, hooks, melodies, arrangement sections, production moves, and Ableton-ready next actions. Use for creative session guidance, producer decision-making, Realtime/Copilot prompts, and deciding what to write/send/audition in Ableton. Do not use primarily for local setup, API-key, mic permission, bridge, or no-sound debugging; use $ableton-songwriting-copilot for that.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/ableton-producer-copilot"
+  },
+  {
+    "name": "ableton-songwriting-copilot",
+    "description": "Use when helping a songwriter or music producer operate ChordChemist with Ableton Live and Max for Live: preparing the local web app, OpenAI Realtime voice, SQLite songs, Ableton/M4L bridge, writing or firing MIDI clips in Live, diagnosing no-sound/permission/mic/API-key/bridge issues, or planning ChordChemist-to-Ableton production workflows. Do not use for generic music advice that does not involve ChordChemist, Ableton, Max for Live, Realtime, or the local M4L bridge.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/ableton-songwriting-copilot"
+  },
+  {
+    "name": "agents-md-screaming-architecture",
+    "description": "Create or update Codex instruction files (AGENTS.md / AGENTS.override.md and fallbacks like .agents.md) using “Screaming Architecture” style: each directory’s instructions quickly state purpose, boundaries, invariants, and exact validation commands. Use when asked to add/standardize agent instructions across a repo (root + key subdirectories), or when you need directory-scoped rules for tests/lint/docs/ownership.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/agents-md-screaming-architecture"
+  },
+  {
+    "name": "chordchemist-composer",
+    "description": "Use when ChordChemist songwriting, harmony, melody generation, reharmonization, vocal adaptation, key detection, Melody Canvas edits, deterministic WAV/SVG previews, Copilot workbench validation, or CLI-backed music-theory answers are needed. Do not use for generic frontend work or music advice that does not need ChordChemist's deterministic CLI/app surfaces.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/chordchemist-composer"
+  },
+  {
+    "name": "codex-exec-subagent",
+    "description": "Launch focused Codex subagents via `codex exec` (single, resumed, or batched), capture outputs to files, and aggregate results as if using The Agent subagents.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/codex-exec-subagent"
+  },
+  {
+    "name": "codex-goal-planner-skill-orchestrator",
+    "description": "Use when a Codex goal needs to be decomposed through a domain Skill with explicit intent, state, evidence policy, verification threshold, tool routing, Tool Adapters, and completion audit. Trigger for durable /goal work, multi-tool tasks, runtime/artifact workflows, or any situation where completion could be falsely claimed from weak evidence.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/codex-goal-planner-skill-orchestrator"
+  },
+  {
+    "name": "convex-worker-cli",
+    "description": "Use this skill when orchestrating RLM-style or swarm-style work on this repo through the worker control plane, especially when a root Codex or Claude agent should launch cheap bash workers via `pnpm worker:codex` or `pnpm worker -- ...`, keep its own context small, and consume `/handoff/*` artifacts instead of raw child output.",
+    "source": "project",
+    "originalPath": "~/.t3/worktrees/convex-sandbox/t3code-33c989be/.codex/skills/convex-worker-cli"
+  },
+  {
+    "name": "crypto-puzzle-hypothesis",
+    "description": "Systematic clue extraction, hypothesis ranking, and experiment-led cryptographic puzzle solving for ciphertexts, encoded hint lines, hidden URLs, metadata-based clues, and modern KDF or AEAD guessing. Use when Codex needs to analyze a crypto puzzle, CTF-style encrypted message, suspicious base64 or hex payload, layered clue chain, or “decrypt this line” challenge and should separate confirmed facts from hypotheses, probe common encodings, and test one explicit attack matrix at a time.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/crypto-puzzle-hypothesis"
+  },
+  {
+    "name": "diagnose",
+    "description": "Disciplined diagnosis loop for hard bugs and performance regressions. Reproduce → minimise → hypothesise → instrument → fix → regression-test. Use when user says \"diagnose this\" / \"debug this\", reports a bug, says something is broken/throwing/failing, or describes a performance regression.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/diagnose"
+  },
+  {
+    "name": "direnv-envrc-bootstrap",
+    "description": "Create/update a standard direnv `.envrc` that seeds a worktree `.env` from `~/.config/{slug}/.env` or from another git worktree, then loads it via `dotenv_if_exists`. Use when bootstrapping new git worktrees, fixing missing env vars in Codex-created worktrees, or standardizing local secret loading with direnv.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/direnv-envrc-bootstrap"
+  },
+  {
+    "name": "excalidraw-mermaid-safe",
+    "description": "Generate Excalidraw-compatible Mermaid flowcharts with parser-safe labels, readable grouped layouts, and conservative color classes. Use when users ask for a Mermaid diagram that imports cleanly in Excalidraw or for sanitizing broken Mermaid before Excalidraw import.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/excalidraw-mermaid-safe"
+  },
+  {
+    "name": "flashback",
+    "description": "Session context handoff and restart prompt generation. Consolidate memory, capture decisions/pending work, and emit a self-contained restart message. Use when the user says \"flashback\", \"save state\", \"checkpoint\", \"wrap up\", or asks for a session handoff, especially at end of session or when context is running low.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/flashback"
+  },
+  {
+    "name": "frontend-design",
+    "description": "Crea y refina frontends web (HTML/CSS/JS) para que resultados clínicos o técnicos queden claros, auditables y listos para reunión, con narrativa ejecutiva, jerarquía visual y controles de lectura rápida.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/frontend-design"
+  },
+  {
+    "name": "gh-address-comments",
+    "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/gh-address-comments"
+  },
+  {
+    "name": "goal-planner",
+    "description": "Plan, start, inspect, budget, and complete Codex Goals. Use when the user asks to create a goal, define a goal, plan a goal, refine an objective, set a token budget, check current goal status, continue toward an active goal, replace a goal, or close a goal after verifying completion. Use request_user_input when available to resolve bounded ambiguity before calling create_goal.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/goal-planner"
+  },
+  {
+    "name": "grill-with-docs",
+    "description": "Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/grill-with-docs"
+  },
+  {
+    "name": "handoff",
+    "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/handoff"
+  },
+  {
+    "name": "improve-codebase-architecture",
+    "description": "Find deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and the decisions in docs/adr/. Use when the user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more testable and AI-navigable.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/improve-codebase-architecture"
+  },
+  {
+    "name": "intent-html-renderer",
+    "description": "Infer the right browser UI from a user's natural-language intent, goal, task, screenshot inspiration, or desired outcome, then render a usable artifact. Use when the user wants Codex to decide the interface, not specify layout or components: dashboards, workbenches, reports, action-command tools, comparison views, prototypes, widgets, landing pages, or prompt-to-UI surfaces. Prefer detected local UI systems first, especially React, Shadcn, and json-render routes/components; use the global Shadcn render host when the workspace lacks usable UI dependencies; create standalone HTML only for explicit portable-file requests or when the host is unavailable. Do not use for non-UI code changes, pure text answers, or when the user already specified exact implementation details.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/intent-html-renderer"
+  },
+  {
+    "name": "intent-html-renderer-local",
+    "description": "Local preserved variant of intent-html-renderer from ~/.agents/skills. Use only when the user explicitly asks for the local variant or wants the newer proof-closure wording preserved alongside the repo baseline. Infer the right browser UI from a user's natural-language intent, goal, task, screenshot inspiration, or desired outcome, then render a usable artifact. Use when the user wants Codex to decide the interface, not specify layout or components: dashboards, workbenches, reports, action-command tools, comparison views, prototypes, widgets, landing pages, or prompt-to-UI surfaces. Prefer detected local UI systems first, especially React, Shadcn, and json-render routes/components; use the global Shadcn render host when the workspace lacks usable UI dependencies; create standalone HTML only for explicit portable-file requests or when the host is unavailable. Do not use for non-UI code changes, pure text answers, or when the user already specified exact implementation details.",
+    "source": "user-direct-local-variant",
+    "originalPath": "~/.agents/skills/intent-html-renderer"
+  },
+  {
+    "name": "kimojo-daemon-session-driver",
+    "description": "Controla sesiones vivas de Kimojo a través del daemon local e IPC. Usa esta skill cuando el usuario quiera iniciar `kimojo serve`, adjuntarse con `kimojo attach`, validar controller/observer ownership, enviar mensajes a una sesión viva, o depurar permisos y attach semantics.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/kimojo-daemon-session-driver"
+  },
+  {
+    "name": "kimojo-operate-proof",
+    "description": "Prueba y demuestra la superficie visual de Kimojo Orchestrator. Usa esta skill cuando el usuario quiera validar `/operate/orchestrator`, sacar screenshots, hacer smoke tests del web control plane, o comprobar que la UI visible coincide con runtime truth.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/kimojo-operate-proof"
+  },
+  {
+    "name": "kimojo-orchestrator-operator",
+    "description": "Controla Kimojo Orchestrator/Symphony desde sus superficies canónicas. Usa esta skill cuando el usuario quiera bootstrappear un repo piloto, validar readiness, probar tracker/orchestrator, hacer dry-run o dispatch real, inspeccionar validation/handoff, o demostrar runtime truth en Kimojo.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/kimojo-orchestrator-operator"
+  },
+  {
+    "name": "kimojo-roast-audit",
+    "description": "Generate or refresh the Kimojo roast audit report; use when asked to audit doc vs code drift for the roast.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/kimojo-roast-audit"
+  },
+  {
+    "name": "lenny-one-pager",
+    "description": "Drafts concise product one-pagers in the style of Lenny Rachitsky's 1-pager: short, evidence-backed, decision-oriented product briefs. Use when the user asks for a 1-pager, product brief, product hypothesis, lightweight PRD, executive product memo, or wants to turn an idea into a crisp product decision document.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/lenny-one-pager"
+  },
+  {
+    "name": "macos-storage-triage",
+    "description": "Audit and safely liberate macOS disk space by ranking storage candidates by physical size, regenerability, human value, and deletion risk. Use when the user asks to free disk space on macOS, audit storage, clean Xcode simulators, Homebrew/caches, app support data, Dropbox/Drive local data, or design a storage-cleanup plan.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/macos-storage-triage"
+  },
+  {
+    "name": "markdown-beautifier",
+    "description": "Transform raw notes, analysis, or data into clean, readable Markdown with tables, ASCII box diagrams, code fences, and visual hierarchy. Use when asked to beautify, format nicely, create a pretty report, or make output presentation-ready.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/markdown-beautifier"
+  },
+  {
+    "name": "markdown-to-mermaid",
+    "description": "Convert structured markdown (lists, steps, timelines, state transitions) into Mermaid diagrams. Use when asked to generate a flowchart, sequence diagram, state diagram, gantt, mindmap, or convert markdown to mermaid.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/markdown-to-mermaid"
+  },
+  {
+    "name": "notion-knowledge-capture",
+    "description": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/notion-knowledge-capture"
+  },
+  {
+    "name": "notion-spec-to-implementation",
+    "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/notion-spec-to-implementation"
+  },
+  {
+    "name": "overlay-browser-navigator",
+    "description": "Navigate and control websites by combining a live browser session with the a11y-overlay semantic layer. Use when Codex must click, type, scroll, route, or recover in a website and should use overlay signals such as landmarks, headings, accessible names, hit boxes, focus order, and visual evidence to choose and verify actions.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/overlay-browser-navigator"
+  },
+  {
+    "name": "overlay-playwright-runtime",
+    "description": "Adopt and operate the a11y-overlay runtime in Playwright or browser-agent repos. Use when Codex needs to vendor `a11y-overlay.js` plus `playwright/overlay-client.mjs` into another repo, or when Codex needs to audit a public site, authenticated web app, responsive route surface, attached desktop-shell surface, or visual evidence flow from a persistent Playwright session with reports, annotations, and artifact bundles.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/overlay-playwright-runtime"
+  },
+  {
+    "name": "pdf",
+    "description": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/pdf"
+  },
+  {
+    "name": "playwright",
+    "description": "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/playwright"
+  },
+  {
+    "name": "playwright-interactive",
+    "description": "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/playwright-interactive"
+  },
+  {
+    "name": "pr-summary",
+    "description": "Summarize the current GitHub pull request using live PR context from opt-in !`command` dynamic context placeholders or the fallback collector script.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/pr-summary"
+  },
+  {
+    "name": "progress-summary-sync",
+    "description": "Sync the Progress Summary counts in PROGRESS.md with the canonical Phase/TODO/Subtask sections; use after adding or updating TODOs/subtasks when the summary becomes stale.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/progress-summary-sync"
+  },
+  {
+    "name": "render-html-intent",
+    "description": "Turn a natural-language request, loose product idea, content brief, wireframe description, or UI prompt into a rendered standalone HTML/CSS/JS artifact. Use when Codex should infer the user's intent and produce a browser-viewable HTML page, mockup, dashboard, explainer, report, prototype, landing page, interactive widget, or visual composition from prose rather than editing an existing app.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/render-html-intent"
+  },
+  {
+    "name": "repo-svg-sourcemap",
+    "description": "Generate zoomable, sourcemap-style SVG diagrams from Markdown or indented outlines (e.g., PROGRESS.md/ROADMAP.md/plan docs). Use when the user asks to \"map this repo\", \"draw a repo diagram\", \"make an SVG sourcemap\", or wants a large navigable visual artifact of a plan/spec.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/repo-svg-sourcemap"
+  },
+  {
+    "name": "repoprompt-subagent",
+    "description": "Delegate codebase navigation, planning, or targeted edits to a RepoPrompt sub-agent via chat_send. Use when the user says things like \"spawn a RepoPrompt sub-agent\", \"delegate this code search/plan/review\", \"have RepoPrompt explore the repo\", or \"ask a sub-agent to draft changes\".",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/repoprompt-subagent"
+  },
+  {
+    "name": "research",
+    "description": "Systematic research and feasibility analysis using local files and user-provided sources. Use when asked to research, investigate, look up, analyze, compare approaches, or deliver a structured research report with citations.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/research"
+  },
+  {
+    "name": "semantic-image-director",
+    "description": "Preserve meaning when turning concepts, pages, diagrams, product narratives, technical terms, or text-heavy ideas into visual artifacts. Use when a user asks for an image/mockup/infographic/page preview involving ambiguous words, exact text, technical concepts, metaphors, domain language, screenshots, slides, or when image generation might literalize terms like cloud, agent, model, state, pipeline, memory, container, token, branch, runtime, or architecture.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/semantic-image-director"
+  },
+  {
+    "name": "skill-enhancer",
+    "description": "Audit, stress-test, and improve Codex or Claude skills using source-backed patterns, pressure questions, progressive disclosure, and validation. Use when creating or enhancing a skill, porting a Claude skill to Codex, reviewing SKILL.md quality, improving trigger descriptions, splitting references, adding workflow rigor, or testing whether a skill resists ambiguity.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/skill-enhancer"
+  },
+  {
+    "name": "svg-css-enhancer",
+    "description": "Enhance existing SVG files by injecting CSS (themes, hover highlighting, outlines, typography tweaks) and optional element normalization (ids/classes/titles) to make diagrams more informative and navigable. Use when a user provides an SVG and asks to restyle it, improve readability/contrast, add interactive hover emphasis, or generate a “debug/inspector” version without re-drawing the vector art.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/svg-css-enhancer"
+  },
+  {
+    "name": "svg-sourcemap",
+    "description": "Generate detailed, zoomable, sourcemap-style SVG diagrams from Markdown or indented text outlines. Use when the user asks to \"create an svg to represent that\", wants a large navigable visual artifact they can zoom/pan deeply, or requests a \"sourcemap\" style map/diagram of a plan/spec/document (especially .md files) without requiring pretty styling.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/svg-sourcemap"
+  },
+  {
+    "name": "svg-styled-sourcemap",
+    "description": "Generate zoomable SVG “sourcemap” diagrams from Markdown/outlines and produce a styled (readable, semantic-colored, hover-highlighted) SVG variant. Use when users ask to create a repo/plan map from files like PROGRESS.md/ROADMAP.md/specs, to combine multiple Markdown docs into one SVG, or to improve the readability/style of an existing sourcemap-style SVG.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/svg-styled-sourcemap"
+  },
+  {
+    "name": "task-creator",
+    "description": "Create numbered task documents from project templates when users ask to \"create task\", \"new task\", \"make task\", \"create task document\", or \"create task for ...\". Use /ai_docs only, auto-create task_template.md when missing, assign the next sequential number, prefill title and goal from the request, and then continue the template workflow.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/task-creator"
+  },
+  {
+    "name": "tauri-native-validation",
+    "description": "Validate a Tauri desktop app in a real native window, especially when browser-only QA is not enough. Use when Codex needs to verify launch targets, native window sizing, desktop navigation semantics, URL-bar-free flows, screenshots from the actual Tauri shell, or other behavior that must be proven in the real app instead of a browser tab.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/tauri-native-validation"
+  },
+  {
+    "name": "to-issues",
+    "description": "Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices. Use when user wants to convert a plan into issues, create implementation tickets, or break down work into issues.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/to-issues"
+  },
+  {
+    "name": "to-prd",
+    "description": "Turn the current conversation context into a PRD and publish it to the project issue tracker. Use when user wants to create a PRD from the current context.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/to-prd"
+  },
+  {
+    "name": "triage",
+    "description": "Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/triage"
+  },
+  {
+    "name": "ui-annotation-review",
+    "description": "Create annotated UI review artifacts from screenshots or browser captures using short notes, arrows, and consistent callouts. Use when Codex needs to mark visual defects, explain UI changes, produce screenshot evidence for PRs/issues/Linear, or publish browser-verified visual proof without relying on a full design tool.",
+    "source": "user-global",
+    "originalPath": "~/.codex/skills/ui-annotation-review"
+  },
+  {
+    "name": "ui-demo-video-linear",
+    "description": "Record a short browser demo for frontend or UI work and attach it to a Linear issue. Use when an agent changes visible application behavior, needs to prove the UI works, or should leave video evidence on a Linear issue. Prefer Playwright MCP for browser automation and Linear MCP for attachment/comment publishing.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/ui-demo-video-linear"
+  },
+  {
+    "name": "ui-demo-video-publish",
+    "description": "Publish UI demo evidence to Linear after frontend or visible product changes. Use when an agent has already implemented or validated a visible UI flow and needs to record the flow, attach the resulting video to a Linear issue, and leave a concise proof comment. Prefer Playwright MCP for recording and the existing `ui-demo-video-linear` skill for artifact discovery and attachment preparation.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/ui-demo-video-publish"
+  },
+  {
+    "name": "va-cfile-pdf-editor",
+    "description": "Vision-first grounded PDF extraction and deterministic page editing workflow. VA C-file is the default profile, but the same pipeline supports general-purpose document extraction with entity/event evidence anchors and citation-bound timelines.",
+    "source": "user-local",
+    "originalPath": "~/.codex/skills/local/va-cfile-pdf-editor"
+  },
+  {
+    "name": "vision-in-time",
+    "description": "Understand videos, screen recordings, and time-based visual evidence by turning media into timestamped observations, key moments, timelines, and evidence-backed answers. Use when the user asks Codex to inspect a video, explain what happened over time, find key moments, analyze a screen recording, work around models without native video understanding, or answer questions with timestamps from visual/audio evidence.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/vision-in-time"
+  },
+  {
+    "name": "write-a-skill",
+    "description": "Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/write-a-skill"
+  },
+  {
+    "name": "zoom-out",
+    "description": "Tell the agent to zoom out and give broader context or a higher-level perspective. Use when you're unfamiliar with a section of code or need to understand how it fits into the bigger picture.",
+    "source": "user-direct-local",
+    "originalPath": "~/.agents/skills/zoom-out"
+  }
+]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Enhancer"
+  short_description: "Improve skills with source-backed audits"
+  default_prompt: "Use $skill-enhancer to audit and improve this skill."

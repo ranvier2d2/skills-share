@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ableton Producer Copilot"
+  short_description: "Write and produce songs in Ableton"
+  default_prompt: "Use $ableton-producer-copilot to turn my musical idea into chords, melody, arrangement, and Ableton-ready production moves."

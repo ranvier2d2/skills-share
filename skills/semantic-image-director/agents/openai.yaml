@@ -1,0 +1,4 @@
+interface:
+  display_name: "Semantic Image Director"
+  short_description: "Preserve meaning before generating visuals."
+  default_prompt: "Use $semantic-image-director to turn my visual intent into a semantically locked image/mockup brief before choosing imagegen or a deterministic renderer."

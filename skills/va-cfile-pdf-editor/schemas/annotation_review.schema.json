@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "annotation_review.schema.json",
+  "type": "object",
+  "required": [
+    "case_id",
+    "reviewed_by",
+    "approved_entities",
+    "rejected_entities",
+    "bbox_overrides",
+    "notes"
+  ],
+  "properties": {
+    "case_id": {"type": "string"},
+    "reviewed_by": {"type": "string"},
+    "approved_entities": {"type": "array", "items": {"type": "string"}},
+    "rejected_entities": {"type": "array", "items": {"type": "string"}},
+    "bbox_overrides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["entity_id", "bbox"],
+        "properties": {
+          "entity_id": {"type": "string"},
+          "bbox": {
+            "type": "object",
+            "required": ["x", "y", "w", "h"],
+            "properties": {
+              "x": {"type": "number"},
+              "y": {"type": "number"},
+              "w": {"type": "number", "exclusiveMinimum": 0},
+              "h": {"type": "number", "exclusiveMinimum": 0}
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

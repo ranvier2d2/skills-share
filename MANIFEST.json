@@ -288,12 +288,6 @@
     "originalPath": "~/.codex/skills/local/svg-styled-sourcemap"
   },
   {
-    "name": "task-creator",
-    "description": "Create numbered task documents from project templates when users ask to \"create task\", \"new task\", \"make task\", \"create task document\", or \"create task for ...\". Use /ai_docs only, auto-create task_template.md when missing, assign the next sequential number, prefill title and goal from the request, and then continue the template workflow.",
-    "source": "user-local",
-    "originalPath": "~/.codex/skills/local/task-creator"
-  },
-  {
     "name": "tauri-native-validation",
     "description": "Validate a Tauri desktop app in a real native window, especially when browser-only QA is not enough. Use when Codex needs to verify launch targets, native window sizing, desktop navigation semantics, URL-bar-free flows, screenshots from the actual Tauri shell, or other behavior that must be proven in the real app instead of a browser tab.",
     "source": "user-local",

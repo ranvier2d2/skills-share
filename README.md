@@ -1,6 +1,6 @@
-# Bastian's Codex Skills
+# Codex Skills
 
-Private share repository for Bastian's Codex skills.
+Share repository for Codex skills.
 
 ## Install
 
@@ -40,4 +40,4 @@ Generated dependency and runtime artifact folders such as `node_modules`, `outpu
 
 ## Skill Count
 
-60 skills.
+59 skills.

@@ -53,7 +53,7 @@ uv run python scripts/cleanup_actions.py --list
 - **App Support/browser state:** close apps first; cache-only subpaths may be candidates, profiles/databases are high risk.
 - **Human files/media/synced folders:** produce a review/offload plan, not a deletion plan.
 
-## Known Lessons From Bastian's Machine
+## Known Lessons From Local Audits
 
 - Miniconda under `/opt/homebrew/Caskroom/miniconda` consumed 31G and was removable after the user confirmed it was unused.
 - `brew uninstall --cask miniconda` may fail in non-interactive environments because Homebrew invokes `sudo`.

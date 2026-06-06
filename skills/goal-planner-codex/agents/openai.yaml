@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal Planner Codex"
+  short_description: "Plan, run, and complete Codex Goals with evidence"
+  default_prompt: "Use $goal-planner-codex to turn my intent into a compact Codex Goal, execution plan, and evidence-backed completion contract."

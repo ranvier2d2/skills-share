@@ -25,7 +25,7 @@ npx skills add https://github.com/ranvier2d2/skills-share.git --list
 Install one skill:
 
 ```bash
-npx skills add https://github.com/ranvier2d2/skills-share.git --skill goal-planner -a codex -g
+npx skills add https://github.com/ranvier2d2/skills-share.git --skill goal-planner-codex -a codex -g
 ```
 
 ## Contents
@@ -40,4 +40,4 @@ Generated dependency and runtime artifact folders such as `node_modules`, `outpu
 
 ## Skill Count
 
-59 skills.
+58 skills.

@@ -42,12 +42,6 @@
     "originalPath": "~/.codex/skills/local/codex-exec-subagent"
   },
   {
-    "name": "codex-goal-planner-skill-orchestrator",
-    "description": "Use when a Codex goal needs to be decomposed through a domain Skill with explicit intent, state, evidence policy, verification threshold, tool routing, Tool Adapters, and completion audit. Trigger for durable /goal work, multi-tool tasks, runtime/artifact workflows, or any situation where completion could be falsely claimed from weak evidence.",
-    "source": "user-direct-local",
-    "originalPath": "~/.agents/skills/codex-goal-planner-skill-orchestrator"
-  },
-  {
     "name": "convex-worker-cli",
     "description": "Use this skill when orchestrating RLM-style or swarm-style work on this repo through the worker control plane, especially when a root Codex or Claude agent should launch cheap bash workers via `pnpm worker:codex` or `pnpm worker -- ...`, keep its own context small, and consume `/handoff/*` artifacts instead of raw child output.",
     "source": "project",
@@ -96,10 +90,10 @@
     "originalPath": "~/.codex/skills/gh-address-comments"
   },
   {
-    "name": "goal-planner",
-    "description": "Plan, start, inspect, budget, and complete Codex Goals. Use when the user asks to create a goal, define a goal, plan a goal, refine an objective, set a token budget, check current goal status, continue toward an active goal, replace a goal, or close a goal after verifying completion. Use request_user_input when available to resolve bounded ambiguity before calling create_goal.",
+    "name": "goal-planner-codex",
+    "description": "Plan, start, inspect, continue, budget, and complete Codex Goals with compact native goal text, live task plans, optional contract files, and evidence-backed completion audits. Use when the user explicitly asks to create/set/plan/refine/continue/replace/check/close a Codex Goal, provides or asks about a token budget, resumes an active Goal, or asks Codex to verify that Goal completion is actually proven.",
     "source": "user-local",
-    "originalPath": "~/.codex/skills/local/goal-planner"
+    "originalPath": "~/.codex/skills/goal-planner-codex"
   },
   {
     "name": "grill-with-docs",

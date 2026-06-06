@@ -41,7 +41,7 @@ Example:
 ```text
 Implement and verify CSV export for reports. Completion requires working export
 behavior, focused tests, and user-visible evidence. Rigor: evidence-led. Follow
-.codex/goals/csv-export-reports/contract.md before completion.
+~/.codex/goals/current-repo/csv-export-reports/contract.md before completion.
 ```
 
 ## Contract File Ordering
@@ -52,7 +52,7 @@ If the Goal text references a contract file, that file must already exist before
 Order for `evidence-led` Goals:
 
 ```text
-draft contract -> write contract file -> create compact Goal -> update_plan
+draft contract -> write user-level contract file -> create compact Goal -> update_plan
 ```
 
 Never create a Goal with a dead contract reference.
@@ -62,16 +62,25 @@ Never create a Goal with a dead contract reference.
 Default path:
 
 ```text
-.codex/goals/<goal-slug>/contract.md
+${CODEX_HOME:-~/.codex}/goals/<repo-slug>/<goal-slug>/contract.md
 ```
 
-Before writing, check whether `.codex/` is ignored. If it is not ignored, ask
-before writing local execution state into the repo, or choose a safer artifact
-path when the situation clearly calls for one.
+Prefer user-level contract storage. It keeps execution contracts out of the
+project unless the user or repo convention asks for project-local state.
+
+Use repo-local contract storage only when:
+
+- the user explicitly requests it,
+- the repo already has a clearly ignored convention for Goal artifacts,
+- future agents must find the contract from the worktree without relying on the
+  user's home directory.
+
+Before writing repo-local execution state, verify the target path is ignored or
+ask first.
 
 ## Slug Rules
 
-Auto-create the slug from the objective.
+Auto-create slugs from the repository/workspace name and objective.
 
 - lowercase ASCII,
 - kebab-case,
@@ -83,6 +92,7 @@ Auto-create the slug from the objective.
 Examples:
 
 ```text
+Repo: Pixir -> pixir
 Implement and verify CSV export for reports -> csv-export-reports
 Fix failing checkout redirect tests -> checkout-redirect-tests
 Prepare PR for review -> prepare-pr-review

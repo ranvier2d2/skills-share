@@ -54,7 +54,8 @@ User:
 Make the PR ready for review with tests so it is verifiable as a Goal.
 ```
 
-Write `.codex/goals/pr-ready-review/contract.md` first.
+Write `${CODEX_HOME:-~/.codex}/goals/current-repo/pr-ready-review/contract.md`
+first.
 
 Goal text:
 
@@ -62,7 +63,7 @@ Goal text:
 Update the PR and leave it ready for review. Completion requires requested
 changes handled, tests passing, branch pushed, and PR state verified as
 non-draft. Rigor: evidence-led. Follow
-.codex/goals/pr-ready-review/contract.md.
+~/.codex/goals/current-repo/pr-ready-review/contract.md.
 ```
 
 Contract sketch:

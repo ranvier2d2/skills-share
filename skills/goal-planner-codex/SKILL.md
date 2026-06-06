@@ -22,7 +22,7 @@ Keep the three Codex planning surfaces distinct:
 ```text
 Goal text = compact durable guide that survives compaction.
 update_plan = live task decomposition for standard and evidence-led work.
-.codex/goals/<slug>/contract.md = optional detailed contract when needed.
+${CODEX_HOME:-~/.codex}/goals/<repo-slug>/<goal-slug>/contract.md = optional detailed contract when needed.
 ```
 
 The native Goal text is not the full operating contract. Keep it under the
@@ -62,9 +62,9 @@ Infer rigor automatically unless the user overrides it.
    - ask only the next necessary question, with a recommended answer.
 4. Draft compact Goal text. Include objective, completion condition, rigor, and
    quoted file/script/contract references when they matter.
-5. For `evidence-led` Goals that need a detailed contract, write
-   `.codex/goals/<slug>/contract.md` before calling `create_goal`. Never create
-   a Goal that references a contract file which does not already exist.
+5. For `evidence-led` Goals that need a detailed contract, write the
+   user-level contract file before calling `create_goal`. Never create a Goal
+   that references a contract file which does not already exist.
 6. Call `create_goal` only when the user explicitly asked for a Goal or
    confirmed a proposed Goal. Set `token_budget` only when the user explicitly
    gave or chose one.
@@ -78,16 +78,20 @@ Infer rigor automatically unless the user overrides it.
 
 ## Contract Files
 
-Use `.codex/goals/<slug>/contract.md` only when the Goal benefits from durable
-details outside the compact Goal text, especially for `evidence-led` or
-long-running work.
+Use a user-level contract file only when the Goal benefits from durable details
+outside the compact Goal text, especially for `evidence-led` or long-running
+work.
 
-- Auto-create `<slug>` from the objective using lowercase ASCII kebab-case,
-  important words only, about six words or fewer, with a numeric suffix on
-  collision.
-- Check whether `.codex/` is ignored before writing. If it is not ignored, ask
-  before writing repo-local execution state or choose a safer artifact path when
-  the context makes that appropriate.
+- Default path:
+  `${CODEX_HOME:-~/.codex}/goals/<repo-slug>/<goal-slug>/contract.md`.
+- Auto-create `<repo-slug>` from the repository/workspace name and
+  `<goal-slug>` from the objective using lowercase ASCII kebab-case, important
+  words only, about six words or fewer, with a numeric suffix on collision.
+- Use repo-local contract storage only when the user explicitly requests it, the
+  repo already has a clearly ignored convention for Goal artifacts, or future
+  agents must find the contract from the worktree without relying on the user's
+  home directory. Before writing repo-local execution state, verify the target
+  path is ignored or ask first.
 - Treat the contract as mutable after Goal creation, but update it deliberately.
   Add `updated_at` and record major changes in `## Contract Changes`.
 - Do not create scripts or hooks until repeated failure modes justify an

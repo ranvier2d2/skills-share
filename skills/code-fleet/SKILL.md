@@ -1,5 +1,5 @@
 ---
-name: CodeFleet
+name: code-fleet
 description: Orchestrate a DAG-gated fleet of Claude Code workers across isolated git worktrees, running each dependency wave as one native Workflow with parallel Claude review lenses, checkpoint bundles, seam gates, and final PR review. Use when the user asks to orchestrate many coding tasks, run a fleet, parallelize implementation safely, coordinate workers, review/merge multiple worktrees, or execute an end-to-end multi-agent coding run.
 ---
 

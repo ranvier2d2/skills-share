@@ -36,6 +36,12 @@
     "originalPath": "~/.codex/skills/chordchemist-composer"
   },
   {
+    "name": "CodeFleet",
+    "description": "Orchestrate a DAG-gated fleet of Claude Code workers across isolated git worktrees, running each dependency wave as one native Workflow with parallel Claude review lenses, checkpoint bundles, seam gates, and final PR review. Use when the user asks to orchestrate many coding tasks, run a fleet, parallelize implementation safely, coordinate workers, review/merge multiple worktrees, or execute an end-to-end multi-agent coding run.",
+    "source": "user-claude",
+    "originalPath": "~/.claude/skills/CodeFleet"
+  },
+  {
     "name": "codex-exec-subagent",
     "description": "Launch focused Codex subagents via `codex exec` (single, resumed, or batched), capture outputs to files, and aggregate results as if using The Agent subagents.",
     "source": "user-local",

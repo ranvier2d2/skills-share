@@ -1,0 +1,3 @@
+# Use a DAG-gated wave scheduler for fleet execution
+
+Accepted. CodeFleet treats parallelism as dependency-aware wave execution, not free fan-out. Each fleet run builds a user-approved dependency graph first, runs only the current ready set in parallel, integrates each completed wave, and branches dependent work from the latest verified wave integration. We chose this over spawning every task immediately because worktrees prevent local checkout collisions but do not protect API, schema, UI, or semantic dependencies; the trade-off is more orchestration state and an approval gate in exchange for fewer downstream merge failures.
